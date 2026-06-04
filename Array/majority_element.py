@@ -33,6 +33,7 @@ element=-1
 for i in arr:
     if count==0:
         element=i
+        
     if i==element:
         count+=1
     else:
